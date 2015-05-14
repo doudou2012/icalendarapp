@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>shareList_iphone</key>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>REActivityViewController.bundle/Icon_Mail</string>
+			<key>sharePattern</key>
+			<integer>0</integer>
+			<key>showText</key>
+			<string>用电子邮件分享</string>
+			<key>title</key>
+			<string>邮件</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>REActivityViewController.bundle/Icon_weixin</string>
+			<key>sharePattern</key>
+			<integer>2</integer>
+			<key>showText</key>
+			<string>用微信分享</string>
+			<key>title</key>
+			<string>微信</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>REActivityViewController.bundle/Icon_weixinQuanZi</string>
+			<key>sharePattern</key>
+			<integer>3</integer>
+			<key>showText</key>
+			<string>分享到微信朋友圈</string>
+			<key>title</key>
+			<string>朋友圈</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>REActivityViewController.bundle/Icon_weibo</string>
+			<key>sharePattern</key>
+			<integer>1</integer>
+			<key>showText</key>
+			<string>分享到新浪微博</string>
+			<key>title</key>
+			<string>微博</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>REActivityViewController.bundle/Icon_Facebook</string>
+			<key>sharePattern</key>
+			<integer>6</integer>
+			<key>showText</key>
+			<string>分享到 LinkedIn</string>
+			<key>title</key>
+			<string>Facebook</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>REActivityViewController.bundle/Icon_Twitter</string>
+			<key>sharePattern</key>
+			<integer>7</integer>
+			<key>showText</key>
+			<string>分享到 LinkedIn</string>
+			<key>title</key>
+			<string>Twitter</string>
+		</dict>
+	</array>
+</dict>
+</plist>

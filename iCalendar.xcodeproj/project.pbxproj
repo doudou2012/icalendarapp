@@ -1,0 +1,1169 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1860221ACEA645006FE71C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860211ACEA645006FE71C /* libxml2.dylib */; };
+		CE1860241ACEA665006FE71C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860231ACEA665006FE71C /* AssetsLibrary.framework */; };
+		CE1860261ACEA671006FE71C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860251ACEA671006FE71C /* StoreKit.framework */; };
+		CE1860401ACEA7B1006FE71C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE18603F1ACEA7B1006FE71C /* SystemConfiguration.framework */; };
+		CE1860461ACEA823006FE71C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860451ACEA823006FE71C /* Social.framework */; };
+		CE18604D1ACEA9E8006FE71C /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE18604C1ACEA9E8006FE71C /* TencentOpenApi_IOS_Bundle.bundle */; };
+		CE1860511ACEAA2B006FE71C /* NewsstandKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860501ACEAA2B006FE71C /* NewsstandKit.framework */; };
+		CE1860571ACEAA79006FE71C /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860561ACEAA79006FE71C /* libiconv.dylib */; };
+		CE1860591ACEAA80006FE71C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860581ACEAA80006FE71C /* CoreData.framework */; };
+		CE18605B1ACEAAB1006FE71C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE18605A1ACEAAB1006FE71C /* AddressBook.framework */; };
+		CE1860611ACEAAF7006FE71C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860601ACEAAF7006FE71C /* CoreLocation.framework */; };
+		CE1860631ACEAB13006FE71C /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860621ACEAB13006FE71C /* libstdc++.dylib */; };
+		CE1860671ACEABB0006FE71C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860661ACEABB0006FE71C /* QuartzCore.framework */; };
+		CE18606D1ACEAC63006FE71C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE18606C1ACEAC63006FE71C /* libz.dylib */; };
+		CE25A5C81AD656A900ACFB43 /* IntroduceView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE25A5C71AD656A900ACFB43 /* IntroduceView.m */; };
+		CE513FDA1AD7B31400F2DC9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7446F21AB6CA7900904718 /* ViewController.m */; };
+		CE513FDB1AD7B31400F2DC9B /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE857F6E1AD3C90E00E2A27D /* AFNetworkReachabilityManager.m */; };
+		CE513FDC1AD7B31400F2DC9B /* WebridgeDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74471E1AB6EDB600904718 /* WebridgeDelegate.m */; };
+		CE513FDD1AD7B31400F2DC9B /* WBWebridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7447161AB6ED7E00904718 /* WBWebridge.m */; };
+		CE513FDE1AD7B31400F2DC9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7446EF1AB6CA7900904718 /* AppDelegate.m */; };
+		CE513FDF1AD7B31400F2DC9B /* WBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFE6641AC39E9000077700 /* WBReachability.m */; };
+		CE513FE01AD7B31400F2DC9B /* WBURLProtocolCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFE66A1AC39E9000077700 /* WBURLProtocolCache.m */; };
+		CE513FE11AD7B31400F2DC9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7446EC1AB6CA7900904718 /* main.m */; };
+		CE513FE21AD7B31400F2DC9B /* IntroduceView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE25A5C71AD656A900ACFB43 /* IntroduceView.m */; };
+		CE513FE31AD7B31400F2DC9B /* WBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7447141AB6ED7E00904718 /* WBUtils.m */; };
+		CE513FE41AD7B31400F2DC9B /* WBURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFE6681AC39E9000077700 /* WBURLProtocol.m */; };
+		CE513FE51AD7B31400F2DC9B /* WBWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7447181AB6ED7E00904718 /* WBWebView.m */; };
+		CE513FE61AD7B31400F2DC9B /* WBURI.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7447121AB6ED7E00904718 /* WBURI.m */; };
+		CE513FE71AD7B31400F2DC9B /* WBUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFE6661AC39E9000077700 /* WBUIWebView.m */; };
+		CE513FE81AD7B31400F2DC9B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CE857F721AD3C9D900E2A27D /* MBProgressHUD.m */; };
+		CE513FEA1AD7B31400F2DC9B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE857F631AD3C32F00E2A27D /* Accounts.framework */; };
+		CE513FEB1AD7B31400F2DC9B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE955511AD372C80003CD25 /* MobileCoreServices.framework */; };
+		CE513FEC1AD7B31400F2DC9B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE18606C1ACEAC63006FE71C /* libz.dylib */; };
+		CE513FED1AD7B31400F2DC9B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860661ACEABB0006FE71C /* QuartzCore.framework */; };
+		CE513FEE1AD7B31400F2DC9B /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860621ACEAB13006FE71C /* libstdc++.dylib */; };
+		CE513FEF1AD7B31400F2DC9B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860601ACEAAF7006FE71C /* CoreLocation.framework */; };
+		CE513FF01AD7B31400F2DC9B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE18605A1ACEAAB1006FE71C /* AddressBook.framework */; };
+		CE513FF11AD7B31400F2DC9B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860581ACEAA80006FE71C /* CoreData.framework */; };
+		CE513FF21AD7B31400F2DC9B /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860561ACEAA79006FE71C /* libiconv.dylib */; };
+		CE513FF31AD7B31400F2DC9B /* NewsstandKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860501ACEAA2B006FE71C /* NewsstandKit.framework */; };
+		CE513FF41AD7B31400F2DC9B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860451ACEA823006FE71C /* Social.framework */; };
+		CE513FF51AD7B31400F2DC9B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE18603F1ACEA7B1006FE71C /* SystemConfiguration.framework */; };
+		CE513FF61AD7B31400F2DC9B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860251ACEA671006FE71C /* StoreKit.framework */; };
+		CE513FF71AD7B31400F2DC9B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860231ACEA665006FE71C /* AssetsLibrary.framework */; };
+		CE513FF81AD7B31400F2DC9B /* Share.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE857F691AD3C84D00E2A27D /* Share.framework */; };
+		CE513FF91AD7B31400F2DC9B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1860211ACEA645006FE71C /* libxml2.dylib */; };
+		CE513FFB1AD7B31400F2DC9B /* ShareList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE857F741AD3CBB000E2A27D /* ShareList.plist */; };
+		CE513FFC1AD7B31400F2DC9B /* DETdone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F7B1AD3CC3A00E2A27D /* DETdone@2x.png */; };
+		CE513FFD1AD7B31400F2DC9B /* global-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC8FB911AD6368F00E73B8D /* global-bg@2x.png */; };
+		CE513FFE1AD7B31400F2DC9B /* DETweetComposeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE857F8A1AD3CC3A00E2A27D /* DETweetComposeView.xib */; };
+		CE513FFF1AD7B31400F2DC9B /* DETweetSendButtonLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F8E1AD3CC3A00E2A27D /* DETweetSendButtonLandscape@2x.png */; };
+		CE5140001AD7B31400F2DC9B /* DETweetCancelButtonLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F811AD3CC3A00E2A27D /* DETweetCancelButtonLandscape@2x.png */; };
+		CE5140011AD7B31400F2DC9B /* DETdone.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F7A1AD3CC3A00E2A27D /* DETdone.png */; };
+		CE5140021AD7B31400F2DC9B /* DETweetURLAttachment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F921AD3CC3A00E2A27D /* DETweetURLAttachment@2x.png */; };
+		CE5140031AD7B31400F2DC9B /* DETweetAttachmentFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F7E1AD3CC3A00E2A27D /* DETweetAttachmentFrame.png */; };
+		CE5140041AD7B31400F2DC9B /* DETweetCardHeaderLine.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F881AD3CC3A00E2A27D /* DETweetCardHeaderLine.png */; };
+		CE5140051AD7B31400F2DC9B /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE18604C1ACEA9E8006FE71C /* TencentOpenApi_IOS_Bundle.bundle */; };
+		CE5140061AD7B31400F2DC9B /* global-bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC8FB921AD6368F00E73B8D /* global-bg@3x.png */; };
+		CE5140071AD7B31400F2DC9B /* DETcancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F791AD3CC3A00E2A27D /* DETcancel@2x.png */; };
+		CE5140081AD7B31400F2DC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7446F41AB6CA7900904718 /* Main.storyboard */; };
+		CE5140091AD7B31400F2DC9B /* REActivityViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE857F941AD3CC3A00E2A27D /* REActivityViewController.strings */; };
+		CE51400A1AD7B31400F2DC9B /* DETweetPaperClip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F8C1AD3CC3A00E2A27D /* DETweetPaperClip@2x.png */; };
+		CE51400B1AD7B31400F2DC9B /* DETweetCardAccountLine.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F841AD3CC3A00E2A27D /* DETweetCardAccountLine.png */; };
+		CE51400C1AD7B31400F2DC9B /* DETline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F7D1AD3CC3A00E2A27D /* DETline@2x.png */; };
+		CE51400D1AD7B31400F2DC9B /* DETweetCancelButtonLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F801AD3CC3A00E2A27D /* DETweetCancelButtonLandscape.png */; };
+		CE51400E1AD7B31400F2DC9B /* REActivityViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE857F931AD3CC3A00E2A27D /* REActivityViewController.bundle */; };
+		CE51400F1AD7B31400F2DC9B /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC8FB8F1AD62D2E00E73B8D /* Images-2.xcassets */; };
+		CE5140101AD7B31400F2DC9B /* DETweetCardHeaderLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F891AD3CC3A00E2A27D /* DETweetCardHeaderLine@2x.png */; };
+		CE5140111AD7B31400F2DC9B /* DETweetAttachmentFrame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F7F1AD3CC3A00E2A27D /* DETweetAttachmentFrame@2x.png */; };
+		CE5140121AD7B31400F2DC9B /* DETweetSendButtonPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F8F1AD3CC3A00E2A27D /* DETweetSendButtonPortrait.png */; };
+		CE5140131AD7B31400F2DC9B /* DETweetCardBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F861AD3CC3A00E2A27D /* DETweetCardBackground.png */; };
+		CE5140141AD7B31400F2DC9B /* SinaWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE857F961AD3CC3A00E2A27D /* SinaWeibo.bundle */; };
+		CE5140151AD7B31400F2DC9B /* DETweetSendButtonLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F8D1AD3CC3A00E2A27D /* DETweetSendButtonLandscape.png */; };
+		CE5140161AD7B31400F2DC9B /* DETweetURLAttachment.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F911AD3CC3A00E2A27D /* DETweetURLAttachment.png */; };
+		CE5140171AD7B31400F2DC9B /* DETweetSendButtonPortrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F901AD3CC3A00E2A27D /* DETweetSendButtonPortrait@2x.png */; };
+		CE5140191AD7B31400F2DC9B /* DETweetCancelButtonPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F821AD3CC3A00E2A27D /* DETweetCancelButtonPortrait.png */; };
+		CE51401A1AD7B31400F2DC9B /* DETweetPaperClip.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F8B1AD3CC3A00E2A27D /* DETweetPaperClip.png */; };
+		CE51401B1AD7B31400F2DC9B /* DETweetCancelButtonPortrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F831AD3CC3A00E2A27D /* DETweetCancelButtonPortrait@2x.png */; };
+		CE51401C1AD7B31400F2DC9B /* DETweetCardAccountLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F851AD3CC3A00E2A27D /* DETweetCardAccountLine@2x.png */; };
+		CE51401D1AD7B31400F2DC9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7446F91AB6CA7900904718 /* LaunchScreen.xib */; };
+		CE51401E1AD7B31400F2DC9B /* DETline.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F7C1AD3CC3A00E2A27D /* DETline.png */; };
+		CE51401F1AD7B31400F2DC9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7446F71AB6CA7900904718 /* Images.xcassets */; };
+		CE5140201AD7B31400F2DC9B /* 404.html in Resources */ = {isa = PBXBuildFile; fileRef = CEC8FB951AD63B4100E73B8D /* 404.html */; };
+		CE5140211AD7B31400F2DC9B /* DETweetCardBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F871AD3CC3A00E2A27D /* DETweetCardBackground@2x.png */; };
+		CE5140221AD7B31400F2DC9B /* DETcancel.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F781AD3CC3A00E2A27D /* DETcancel.png */; };
+		CE51403B1AD7BAF000F2DC9B /* introduce1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5140351AD7BAF000F2DC9B /* introduce1@2x.png */; };
+		CE51403C1AD7BAF000F2DC9B /* introduce1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5140361AD7BAF000F2DC9B /* introduce1@3x.png */; };
+		CE51403D1AD7BAF000F2DC9B /* introduce2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5140371AD7BAF000F2DC9B /* introduce2@2x.png */; };
+		CE51403E1AD7BAF000F2DC9B /* introduce2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5140381AD7BAF000F2DC9B /* introduce2@3x.png */; };
+		CE51403F1AD7BAF000F2DC9B /* introduce3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5140391AD7BAF000F2DC9B /* introduce3@2x.png */; };
+		CE5140401AD7BAF000F2DC9B /* introduce3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE51403A1AD7BAF000F2DC9B /* introduce3@3x.png */; };
+		CE5140431AD7E28A00F2DC9B /* global-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5140411AD7E28A00F2DC9B /* global-bg.png */; };
+		CE5140441AD7E28A00F2DC9B /* Icon-wx.png in Resources */ = {isa = PBXBuildFile; fileRef = CE5140421AD7E28A00F2DC9B /* Icon-wx.png */; };
+		CE7446ED1AB6CA7900904718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7446EC1AB6CA7900904718 /* main.m */; };
+		CE7446F01AB6CA7900904718 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7446EF1AB6CA7900904718 /* AppDelegate.m */; };
+		CE7446F31AB6CA7900904718 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7446F21AB6CA7900904718 /* ViewController.m */; };
+		CE7446F61AB6CA7900904718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7446F41AB6CA7900904718 /* Main.storyboard */; };
+		CE7446F81AB6CA7900904718 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7446F71AB6CA7900904718 /* Images.xcassets */; };
+		CE7446FB1AB6CA7900904718 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE7446F91AB6CA7900904718 /* LaunchScreen.xib */; };
+		CE7447071AB6CA7900904718 /* iCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7447061AB6CA7900904718 /* iCalendarTests.m */; };
+		CE7447191AB6ED7E00904718 /* WBURI.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7447121AB6ED7E00904718 /* WBURI.m */; };
+		CE74471A1AB6ED7E00904718 /* WBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7447141AB6ED7E00904718 /* WBUtils.m */; };
+		CE74471B1AB6ED7E00904718 /* WBWebridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7447161AB6ED7E00904718 /* WBWebridge.m */; };
+		CE74471C1AB6ED7E00904718 /* WBWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7447181AB6ED7E00904718 /* WBWebView.m */; };
+		CE74471F1AB6EDB600904718 /* WebridgeDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE74471E1AB6EDB600904718 /* WebridgeDelegate.m */; };
+		CE857F641AD3C32F00E2A27D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE857F631AD3C32F00E2A27D /* Accounts.framework */; };
+		CE857F6A1AD3C84D00E2A27D /* Share.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE857F691AD3C84D00E2A27D /* Share.framework */; };
+		CE857F6F1AD3C90E00E2A27D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE857F6E1AD3C90E00E2A27D /* AFNetworkReachabilityManager.m */; };
+		CE857F731AD3C9D900E2A27D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CE857F721AD3C9D900E2A27D /* MBProgressHUD.m */; };
+		CE857F751AD3CBB000E2A27D /* ShareList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE857F741AD3CBB000E2A27D /* ShareList.plist */; };
+		CE857F971AD3CC3A00E2A27D /* DETcancel.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F781AD3CC3A00E2A27D /* DETcancel.png */; };
+		CE857F981AD3CC3A00E2A27D /* DETcancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F791AD3CC3A00E2A27D /* DETcancel@2x.png */; };
+		CE857F991AD3CC3A00E2A27D /* DETdone.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F7A1AD3CC3A00E2A27D /* DETdone.png */; };
+		CE857F9A1AD3CC3A00E2A27D /* DETdone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F7B1AD3CC3A00E2A27D /* DETdone@2x.png */; };
+		CE857F9B1AD3CC3A00E2A27D /* DETline.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F7C1AD3CC3A00E2A27D /* DETline.png */; };
+		CE857F9C1AD3CC3A00E2A27D /* DETline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F7D1AD3CC3A00E2A27D /* DETline@2x.png */; };
+		CE857F9D1AD3CC3A00E2A27D /* DETweetAttachmentFrame.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F7E1AD3CC3A00E2A27D /* DETweetAttachmentFrame.png */; };
+		CE857F9E1AD3CC3A00E2A27D /* DETweetAttachmentFrame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F7F1AD3CC3A00E2A27D /* DETweetAttachmentFrame@2x.png */; };
+		CE857F9F1AD3CC3A00E2A27D /* DETweetCancelButtonLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F801AD3CC3A00E2A27D /* DETweetCancelButtonLandscape.png */; };
+		CE857FA01AD3CC3A00E2A27D /* DETweetCancelButtonLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F811AD3CC3A00E2A27D /* DETweetCancelButtonLandscape@2x.png */; };
+		CE857FA11AD3CC3A00E2A27D /* DETweetCancelButtonPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F821AD3CC3A00E2A27D /* DETweetCancelButtonPortrait.png */; };
+		CE857FA21AD3CC3A00E2A27D /* DETweetCancelButtonPortrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F831AD3CC3A00E2A27D /* DETweetCancelButtonPortrait@2x.png */; };
+		CE857FA31AD3CC3A00E2A27D /* DETweetCardAccountLine.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F841AD3CC3A00E2A27D /* DETweetCardAccountLine.png */; };
+		CE857FA41AD3CC3A00E2A27D /* DETweetCardAccountLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F851AD3CC3A00E2A27D /* DETweetCardAccountLine@2x.png */; };
+		CE857FA51AD3CC3A00E2A27D /* DETweetCardBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F861AD3CC3A00E2A27D /* DETweetCardBackground.png */; };
+		CE857FA61AD3CC3A00E2A27D /* DETweetCardBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F871AD3CC3A00E2A27D /* DETweetCardBackground@2x.png */; };
+		CE857FA71AD3CC3A00E2A27D /* DETweetCardHeaderLine.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F881AD3CC3A00E2A27D /* DETweetCardHeaderLine.png */; };
+		CE857FA81AD3CC3A00E2A27D /* DETweetCardHeaderLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F891AD3CC3A00E2A27D /* DETweetCardHeaderLine@2x.png */; };
+		CE857FA91AD3CC3A00E2A27D /* DETweetComposeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE857F8A1AD3CC3A00E2A27D /* DETweetComposeView.xib */; };
+		CE857FAA1AD3CC3A00E2A27D /* DETweetPaperClip.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F8B1AD3CC3A00E2A27D /* DETweetPaperClip.png */; };
+		CE857FAB1AD3CC3A00E2A27D /* DETweetPaperClip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F8C1AD3CC3A00E2A27D /* DETweetPaperClip@2x.png */; };
+		CE857FAC1AD3CC3A00E2A27D /* DETweetSendButtonLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F8D1AD3CC3A00E2A27D /* DETweetSendButtonLandscape.png */; };
+		CE857FAD1AD3CC3A00E2A27D /* DETweetSendButtonLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F8E1AD3CC3A00E2A27D /* DETweetSendButtonLandscape@2x.png */; };
+		CE857FAE1AD3CC3A00E2A27D /* DETweetSendButtonPortrait.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F8F1AD3CC3A00E2A27D /* DETweetSendButtonPortrait.png */; };
+		CE857FAF1AD3CC3A00E2A27D /* DETweetSendButtonPortrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F901AD3CC3A00E2A27D /* DETweetSendButtonPortrait@2x.png */; };
+		CE857FB01AD3CC3A00E2A27D /* DETweetURLAttachment.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F911AD3CC3A00E2A27D /* DETweetURLAttachment.png */; };
+		CE857FB11AD3CC3A00E2A27D /* DETweetURLAttachment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE857F921AD3CC3A00E2A27D /* DETweetURLAttachment@2x.png */; };
+		CE857FB21AD3CC3A00E2A27D /* REActivityViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE857F931AD3CC3A00E2A27D /* REActivityViewController.bundle */; };
+		CE857FB31AD3CC3A00E2A27D /* REActivityViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE857F941AD3CC3A00E2A27D /* REActivityViewController.strings */; };
+		CE857FB41AD3CC3A00E2A27D /* SinaWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE857F961AD3CC3A00E2A27D /* SinaWeibo.bundle */; };
+		CEAFE66C1AC39E9000077700 /* WBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFE6641AC39E9000077700 /* WBReachability.m */; };
+		CEAFE66D1AC39E9000077700 /* WBUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFE6661AC39E9000077700 /* WBUIWebView.m */; };
+		CEAFE66E1AC39E9000077700 /* WBURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFE6681AC39E9000077700 /* WBURLProtocol.m */; };
+		CEAFE66F1AC39E9000077700 /* WBURLProtocolCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAFE66A1AC39E9000077700 /* WBURLProtocolCache.m */; };
+		CEC8FB901AD62D2E00E73B8D /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC8FB8F1AD62D2E00E73B8D /* Images-2.xcassets */; };
+		CEC8FB931AD6368F00E73B8D /* global-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC8FB911AD6368F00E73B8D /* global-bg@2x.png */; };
+		CEC8FB941AD6368F00E73B8D /* global-bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC8FB921AD6368F00E73B8D /* global-bg@3x.png */; };
+		CEC8FB961AD63B4100E73B8D /* 404.html in Resources */ = {isa = PBXBuildFile; fileRef = CEC8FB951AD63B4100E73B8D /* 404.html */; };
+		CEE955521AD372C80003CD25 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE955511AD372C80003CD25 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE7447011AB6CA7900904718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7446DF1AB6CA7800904718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7446E61AB6CA7900904718;
+			remoteInfo = iCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE1860211ACEA645006FE71C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		CE1860231ACEA665006FE71C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CE1860251ACEA671006FE71C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CE18603F1ACEA7B1006FE71C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CE1860451ACEA823006FE71C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CE18604C1ACEA9E8006FE71C /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		CE1860501ACEAA2B006FE71C /* NewsstandKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewsstandKit.framework; path = System/Library/Frameworks/NewsstandKit.framework; sourceTree = SDKROOT; };
+		CE1860561ACEAA79006FE71C /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		CE1860581ACEAA80006FE71C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE18605A1ACEAAB1006FE71C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		CE1860601ACEAAF7006FE71C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CE1860621ACEAB13006FE71C /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		CE1860661ACEABB0006FE71C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CE18606C1ACEAC63006FE71C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CE25A5C61AD656A900ACFB43 /* IntroduceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroduceView.h; sourceTree = "<group>"; };
+		CE25A5C71AD656A900ACFB43 /* IntroduceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroduceView.m; sourceTree = "<group>"; };
+		CE5140271AD7B31400F2DC9B /* iCalendar copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iCalendar copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5140281AD7B31500F2DC9B /* iCalendar copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iCalendar copy-Info.plist"; path = "/Users/user/work/项目/iCalendar/iCalendar copy-Info.plist"; sourceTree = "<absolute>"; };
+		CE5140351AD7BAF000F2DC9B /* introduce1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "introduce1@2x.png"; sourceTree = "<group>"; };
+		CE5140361AD7BAF000F2DC9B /* introduce1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "introduce1@3x.png"; sourceTree = "<group>"; };
+		CE5140371AD7BAF000F2DC9B /* introduce2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "introduce2@2x.png"; sourceTree = "<group>"; };
+		CE5140381AD7BAF000F2DC9B /* introduce2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "introduce2@3x.png"; sourceTree = "<group>"; };
+		CE5140391AD7BAF000F2DC9B /* introduce3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "introduce3@2x.png"; sourceTree = "<group>"; };
+		CE51403A1AD7BAF000F2DC9B /* introduce3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "introduce3@3x.png"; sourceTree = "<group>"; };
+		CE5140411AD7E28A00F2DC9B /* global-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "global-bg.png"; sourceTree = "<group>"; };
+		CE5140421AD7E28A00F2DC9B /* Icon-wx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-wx.png"; sourceTree = "<group>"; };
+		CE7446E71AB6CA7900904718 /* iCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7446EB1AB6CA7900904718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7446EC1AB6CA7900904718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE7446EE1AB6CA7900904718 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE7446EF1AB6CA7900904718 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE7446F11AB6CA7900904718 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE7446F21AB6CA7900904718 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE7446F51AB6CA7900904718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE7446F71AB6CA7900904718 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE7446FA1AB6CA7900904718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CE7447001AB6CA7900904718 /* iCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7447051AB6CA7900904718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7447061AB6CA7900904718 /* iCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCalendarTests.m; sourceTree = "<group>"; };
+		CE7447111AB6ED7E00904718 /* WBURI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBURI.h; sourceTree = "<group>"; };
+		CE7447121AB6ED7E00904718 /* WBURI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBURI.m; sourceTree = "<group>"; };
+		CE7447131AB6ED7E00904718 /* WBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBUtils.h; sourceTree = "<group>"; };
+		CE7447141AB6ED7E00904718 /* WBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBUtils.m; sourceTree = "<group>"; };
+		CE7447151AB6ED7E00904718 /* WBWebridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBWebridge.h; sourceTree = "<group>"; };
+		CE7447161AB6ED7E00904718 /* WBWebridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBWebridge.m; sourceTree = "<group>"; };
+		CE7447171AB6ED7E00904718 /* WBWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBWebView.h; sourceTree = "<group>"; };
+		CE7447181AB6ED7E00904718 /* WBWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBWebView.m; sourceTree = "<group>"; };
+		CE74471D1AB6EDB600904718 /* WebridgeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebridgeDelegate.h; sourceTree = "<group>"; };
+		CE74471E1AB6EDB600904718 /* WebridgeDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebridgeDelegate.m; sourceTree = "<group>"; };
+		CE857F631AD3C32F00E2A27D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CE857F691AD3C84D00E2A27D /* Share.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Share.framework; sourceTree = "<group>"; };
+		CE857F6D1AD3C90E00E2A27D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CE857F6E1AD3C90E00E2A27D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CE857F711AD3C9D900E2A27D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CE857F721AD3C9D900E2A27D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CE857F741AD3CBB000E2A27D /* ShareList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShareList.plist; sourceTree = "<group>"; };
+		CE857F781AD3CC3A00E2A27D /* DETcancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DETcancel.png; sourceTree = "<group>"; };
+		CE857F791AD3CC3A00E2A27D /* DETcancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DETcancel@2x.png"; sourceTree = "<group>"; };
+		CE857F7A1AD3CC3A00E2A27D /* DETdone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DETdone.png; sourceTree = "<group>"; };
+		CE857F7B1AD3CC3A00E2A27D /* DETdone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DETdone@2x.png"; sourceTree = "<group>"; };
+		CE857F7C1AD3CC3A00E2A27D /* DETline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DETline.png; sourceTree = "<group>"; };
+		CE857F7D1AD3CC3A00E2A27D /* DETline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DETline@2x.png"; sourceTree = "<group>"; };
+		CE857F7E1AD3CC3A00E2A27D /* DETweetAttachmentFrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DETweetAttachmentFrame.png; sourceTree = "<group>"; };
+		CE857F7F1AD3CC3A00E2A27D /* DETweetAttachmentFrame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DETweetAttachmentFrame@2x.png"; sourceTree = "<group>"; };
+		CE857F801AD3CC3A00E2A27D /* DETweetCancelButtonLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DETweetCancelButtonLandscape.png; sourceTree = "<group>"; };
+		CE857F811AD3CC3A00E2A27D /* DETweetCancelButtonLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DETweetCancelButtonLandscape@2x.png"; sourceTree = "<group>"; };
+		CE857F821AD3CC3A00E2A27D /* DETweetCancelButtonPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DETweetCancelButtonPortrait.png; sourceTree = "<group>"; };
+		CE857F831AD3CC3A00E2A27D /* DETweetCancelButtonPortrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DETweetCancelButtonPortrait@2x.png"; sourceTree = "<group>"; };
+		CE857F841AD3CC3A00E2A27D /* DETweetCardAccountLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DETweetCardAccountLine.png; sourceTree = "<group>"; };
+		CE857F851AD3CC3A00E2A27D /* DETweetCardAccountLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DETweetCardAccountLine@2x.png"; sourceTree = "<group>"; };
+		CE857F861AD3CC3A00E2A27D /* DETweetCardBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DETweetCardBackground.png; sourceTree = "<group>"; };
+		CE857F871AD3CC3A00E2A27D /* DETweetCardBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DETweetCardBackground@2x.png"; sourceTree = "<group>"; };
+		CE857F881AD3CC3A00E2A27D /* DETweetCardHeaderLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DETweetCardHeaderLine.png; sourceTree = "<group>"; };
+		CE857F891AD3CC3A00E2A27D /* DETweetCardHeaderLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DETweetCardHeaderLine@2x.png"; sourceTree = "<group>"; };
+		CE857F8A1AD3CC3A00E2A27D /* DETweetComposeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DETweetComposeView.xib; sourceTree = "<group>"; };
+		CE857F8B1AD3CC3A00E2A27D /* DETweetPaperClip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DETweetPaperClip.png; sourceTree = "<group>"; };
+		CE857F8C1AD3CC3A00E2A27D /* DETweetPaperClip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DETweetPaperClip@2x.png"; sourceTree = "<group>"; };
+		CE857F8D1AD3CC3A00E2A27D /* DETweetSendButtonLandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DETweetSendButtonLandscape.png; sourceTree = "<group>"; };
+		CE857F8E1AD3CC3A00E2A27D /* DETweetSendButtonLandscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DETweetSendButtonLandscape@2x.png"; sourceTree = "<group>"; };
+		CE857F8F1AD3CC3A00E2A27D /* DETweetSendButtonPortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DETweetSendButtonPortrait.png; sourceTree = "<group>"; };
+		CE857F901AD3CC3A00E2A27D /* DETweetSendButtonPortrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DETweetSendButtonPortrait@2x.png"; sourceTree = "<group>"; };
+		CE857F911AD3CC3A00E2A27D /* DETweetURLAttachment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DETweetURLAttachment.png; sourceTree = "<group>"; };
+		CE857F921AD3CC3A00E2A27D /* DETweetURLAttachment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DETweetURLAttachment@2x.png"; sourceTree = "<group>"; };
+		CE857F931AD3CC3A00E2A27D /* REActivityViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = REActivityViewController.bundle; sourceTree = "<group>"; };
+		CE857F941AD3CC3A00E2A27D /* REActivityViewController.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = REActivityViewController.strings; sourceTree = "<group>"; };
+		CE857F961AD3CC3A00E2A27D /* SinaWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SinaWeibo.bundle; sourceTree = "<group>"; };
+		CEAFE6631AC39E9000077700 /* WBReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBReachability.h; sourceTree = "<group>"; };
+		CEAFE6641AC39E9000077700 /* WBReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBReachability.m; sourceTree = "<group>"; };
+		CEAFE6651AC39E9000077700 /* WBUIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBUIWebView.h; sourceTree = "<group>"; };
+		CEAFE6661AC39E9000077700 /* WBUIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBUIWebView.m; sourceTree = "<group>"; };
+		CEAFE6671AC39E9000077700 /* WBURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBURLProtocol.h; sourceTree = "<group>"; };
+		CEAFE6681AC39E9000077700 /* WBURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBURLProtocol.m; sourceTree = "<group>"; };
+		CEAFE6691AC39E9000077700 /* WBURLProtocolCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBURLProtocolCache.h; sourceTree = "<group>"; };
+		CEAFE66A1AC39E9000077700 /* WBURLProtocolCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBURLProtocolCache.m; sourceTree = "<group>"; };
+		CEC8FB8F1AD62D2E00E73B8D /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		CEC8FB911AD6368F00E73B8D /* global-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "global-bg@2x.png"; sourceTree = "<group>"; };
+		CEC8FB921AD6368F00E73B8D /* global-bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "global-bg@3x.png"; sourceTree = "<group>"; };
+		CEC8FB951AD63B4100E73B8D /* 404.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 404.html; sourceTree = "<group>"; };
+		CEE955511AD372C80003CD25 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE513FE91AD7B31400F2DC9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE513FEA1AD7B31400F2DC9B /* Accounts.framework in Frameworks */,
+				CE513FEB1AD7B31400F2DC9B /* MobileCoreServices.framework in Frameworks */,
+				CE513FEC1AD7B31400F2DC9B /* libz.dylib in Frameworks */,
+				CE513FED1AD7B31400F2DC9B /* QuartzCore.framework in Frameworks */,
+				CE513FEE1AD7B31400F2DC9B /* libstdc++.dylib in Frameworks */,
+				CE513FEF1AD7B31400F2DC9B /* CoreLocation.framework in Frameworks */,
+				CE513FF01AD7B31400F2DC9B /* AddressBook.framework in Frameworks */,
+				CE513FF11AD7B31400F2DC9B /* CoreData.framework in Frameworks */,
+				CE513FF21AD7B31400F2DC9B /* libiconv.dylib in Frameworks */,
+				CE513FF31AD7B31400F2DC9B /* NewsstandKit.framework in Frameworks */,
+				CE513FF41AD7B31400F2DC9B /* Social.framework in Frameworks */,
+				CE513FF51AD7B31400F2DC9B /* SystemConfiguration.framework in Frameworks */,
+				CE513FF61AD7B31400F2DC9B /* StoreKit.framework in Frameworks */,
+				CE513FF71AD7B31400F2DC9B /* AssetsLibrary.framework in Frameworks */,
+				CE513FF81AD7B31400F2DC9B /* Share.framework in Frameworks */,
+				CE513FF91AD7B31400F2DC9B /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7446E41AB6CA7900904718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE857F641AD3C32F00E2A27D /* Accounts.framework in Frameworks */,
+				CEE955521AD372C80003CD25 /* MobileCoreServices.framework in Frameworks */,
+				CE18606D1ACEAC63006FE71C /* libz.dylib in Frameworks */,
+				CE1860671ACEABB0006FE71C /* QuartzCore.framework in Frameworks */,
+				CE1860631ACEAB13006FE71C /* libstdc++.dylib in Frameworks */,
+				CE1860611ACEAAF7006FE71C /* CoreLocation.framework in Frameworks */,
+				CE18605B1ACEAAB1006FE71C /* AddressBook.framework in Frameworks */,
+				CE1860591ACEAA80006FE71C /* CoreData.framework in Frameworks */,
+				CE1860571ACEAA79006FE71C /* libiconv.dylib in Frameworks */,
+				CE1860511ACEAA2B006FE71C /* NewsstandKit.framework in Frameworks */,
+				CE1860461ACEA823006FE71C /* Social.framework in Frameworks */,
+				CE1860401ACEA7B1006FE71C /* SystemConfiguration.framework in Frameworks */,
+				CE1860261ACEA671006FE71C /* StoreKit.framework in Frameworks */,
+				CE1860241ACEA665006FE71C /* AssetsLibrary.framework in Frameworks */,
+				CE857F6A1AD3C84D00E2A27D /* Share.framework in Frameworks */,
+				CE1860221ACEA645006FE71C /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7446FD1AB6CA7900904718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F73140BD7D1EAAEEA4FAD84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE857F691AD3C84D00E2A27D /* Share.framework */,
+				CE857F631AD3C32F00E2A27D /* Accounts.framework */,
+				CEE955511AD372C80003CD25 /* MobileCoreServices.framework */,
+				CE18606C1ACEAC63006FE71C /* libz.dylib */,
+				CE1860661ACEABB0006FE71C /* QuartzCore.framework */,
+				CE1860621ACEAB13006FE71C /* libstdc++.dylib */,
+				CE1860601ACEAAF7006FE71C /* CoreLocation.framework */,
+				CE18605A1ACEAAB1006FE71C /* AddressBook.framework */,
+				CE1860581ACEAA80006FE71C /* CoreData.framework */,
+				CE1860561ACEAA79006FE71C /* libiconv.dylib */,
+				CE1860501ACEAA2B006FE71C /* NewsstandKit.framework */,
+				CE18604C1ACEA9E8006FE71C /* TencentOpenApi_IOS_Bundle.bundle */,
+				CE1860451ACEA823006FE71C /* Social.framework */,
+				CE18603F1ACEA7B1006FE71C /* SystemConfiguration.framework */,
+				CE1860251ACEA671006FE71C /* StoreKit.framework */,
+				CE1860231ACEA665006FE71C /* AssetsLibrary.framework */,
+				CE1860211ACEA645006FE71C /* libxml2.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE25A5C51AD6564A00ACFB43 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				CE25A5C61AD656A900ACFB43 /* IntroduceView.h */,
+				CE25A5C71AD656A900ACFB43 /* IntroduceView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		CE7446DE1AB6CA7800904718 = {
+			isa = PBXGroup;
+			children = (
+				CE7447101AB6ED7E00904718 /* Webridge */,
+				CE7446E91AB6CA7900904718 /* iCalendar */,
+				CE7447031AB6CA7900904718 /* iCalendarTests */,
+				CE7446E81AB6CA7900904718 /* Products */,
+				1F73140BD7D1EAAEEA4FAD84 /* Frameworks */,
+				CE5140281AD7B31500F2DC9B /* iCalendar copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7446E81AB6CA7900904718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7446E71AB6CA7900904718 /* iCalendar.app */,
+				CE7447001AB6CA7900904718 /* iCalendarTests.xctest */,
+				CE5140271AD7B31400F2DC9B /* iCalendar copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7446E91AB6CA7900904718 /* iCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				CE25A5C51AD6564A00ACFB43 /* views */,
+				CEC8FB8D1AD61A6700E73B8D /* assets */,
+				CE857F701AD3C9D900E2A27D /* MBProgressHUD */,
+				CE857F541AD3B40100E2A27D /* setting */,
+				CE74471D1AB6EDB600904718 /* WebridgeDelegate.h */,
+				CE74471E1AB6EDB600904718 /* WebridgeDelegate.m */,
+				CE7446EE1AB6CA7900904718 /* AppDelegate.h */,
+				CE7446EF1AB6CA7900904718 /* AppDelegate.m */,
+				CE7446F11AB6CA7900904718 /* ViewController.h */,
+				CE7446F21AB6CA7900904718 /* ViewController.m */,
+				CE7446F41AB6CA7900904718 /* Main.storyboard */,
+				CE7446F71AB6CA7900904718 /* Images.xcassets */,
+				CE7446F91AB6CA7900904718 /* LaunchScreen.xib */,
+				CEC8FB8F1AD62D2E00E73B8D /* Images-2.xcassets */,
+				CE7446EA1AB6CA7900904718 /* Supporting Files */,
+			);
+			path = iCalendar;
+			sourceTree = "<group>";
+		};
+		CE7446EA1AB6CA7900904718 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE857F761AD3CC3A00E2A27D /* VendorResources */,
+				CE7446EB1AB6CA7900904718 /* Info.plist */,
+				CE7446EC1AB6CA7900904718 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE7447031AB6CA7900904718 /* iCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7447061AB6CA7900904718 /* iCalendarTests.m */,
+				CE7447041AB6CA7900904718 /* Supporting Files */,
+			);
+			path = iCalendarTests;
+			sourceTree = "<group>";
+		};
+		CE7447041AB6CA7900904718 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE7447051AB6CA7900904718 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE7447101AB6ED7E00904718 /* Webridge */ = {
+			isa = PBXGroup;
+			children = (
+				CE857F6D1AD3C90E00E2A27D /* AFNetworkReachabilityManager.h */,
+				CE857F6E1AD3C90E00E2A27D /* AFNetworkReachabilityManager.m */,
+				CEAFE6631AC39E9000077700 /* WBReachability.h */,
+				CEAFE6641AC39E9000077700 /* WBReachability.m */,
+				CEAFE6651AC39E9000077700 /* WBUIWebView.h */,
+				CEAFE6661AC39E9000077700 /* WBUIWebView.m */,
+				CEAFE6671AC39E9000077700 /* WBURLProtocol.h */,
+				CEAFE6681AC39E9000077700 /* WBURLProtocol.m */,
+				CEAFE6691AC39E9000077700 /* WBURLProtocolCache.h */,
+				CEAFE66A1AC39E9000077700 /* WBURLProtocolCache.m */,
+				CE7447111AB6ED7E00904718 /* WBURI.h */,
+				CE7447121AB6ED7E00904718 /* WBURI.m */,
+				CE7447131AB6ED7E00904718 /* WBUtils.h */,
+				CE7447141AB6ED7E00904718 /* WBUtils.m */,
+				CE7447151AB6ED7E00904718 /* WBWebridge.h */,
+				CE7447161AB6ED7E00904718 /* WBWebridge.m */,
+				CE7447171AB6ED7E00904718 /* WBWebView.h */,
+				CE7447181AB6ED7E00904718 /* WBWebView.m */,
+			);
+			path = Webridge;
+			sourceTree = "<group>";
+		};
+		CE857F541AD3B40100E2A27D /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				CE857F741AD3CBB000E2A27D /* ShareList.plist */,
+			);
+			name = setting;
+			sourceTree = "<group>";
+		};
+		CE857F701AD3C9D900E2A27D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CE857F711AD3C9D900E2A27D /* MBProgressHUD.h */,
+				CE857F721AD3C9D900E2A27D /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		CE857F761AD3CC3A00E2A27D /* VendorResources */ = {
+			isa = PBXGroup;
+			children = (
+				CE857F771AD3CC3A00E2A27D /* DETweetComposer */,
+				CE857F931AD3CC3A00E2A27D /* REActivityViewController.bundle */,
+				CE857F941AD3CC3A00E2A27D /* REActivityViewController.strings */,
+				CE857F951AD3CC3A00E2A27D /* weiboSDK */,
+			);
+			path = VendorResources;
+			sourceTree = "<group>";
+		};
+		CE857F771AD3CC3A00E2A27D /* DETweetComposer */ = {
+			isa = PBXGroup;
+			children = (
+				CE857F781AD3CC3A00E2A27D /* DETcancel.png */,
+				CE857F791AD3CC3A00E2A27D /* DETcancel@2x.png */,
+				CE857F7A1AD3CC3A00E2A27D /* DETdone.png */,
+				CE857F7B1AD3CC3A00E2A27D /* DETdone@2x.png */,
+				CE857F7C1AD3CC3A00E2A27D /* DETline.png */,
+				CE857F7D1AD3CC3A00E2A27D /* DETline@2x.png */,
+				CE857F7E1AD3CC3A00E2A27D /* DETweetAttachmentFrame.png */,
+				CE857F7F1AD3CC3A00E2A27D /* DETweetAttachmentFrame@2x.png */,
+				CE857F801AD3CC3A00E2A27D /* DETweetCancelButtonLandscape.png */,
+				CE857F811AD3CC3A00E2A27D /* DETweetCancelButtonLandscape@2x.png */,
+				CE857F821AD3CC3A00E2A27D /* DETweetCancelButtonPortrait.png */,
+				CE857F831AD3CC3A00E2A27D /* DETweetCancelButtonPortrait@2x.png */,
+				CE857F841AD3CC3A00E2A27D /* DETweetCardAccountLine.png */,
+				CE857F851AD3CC3A00E2A27D /* DETweetCardAccountLine@2x.png */,
+				CE857F861AD3CC3A00E2A27D /* DETweetCardBackground.png */,
+				CE857F871AD3CC3A00E2A27D /* DETweetCardBackground@2x.png */,
+				CE857F881AD3CC3A00E2A27D /* DETweetCardHeaderLine.png */,
+				CE857F891AD3CC3A00E2A27D /* DETweetCardHeaderLine@2x.png */,
+				CE857F8A1AD3CC3A00E2A27D /* DETweetComposeView.xib */,
+				CE857F8B1AD3CC3A00E2A27D /* DETweetPaperClip.png */,
+				CE857F8C1AD3CC3A00E2A27D /* DETweetPaperClip@2x.png */,
+				CE857F8D1AD3CC3A00E2A27D /* DETweetSendButtonLandscape.png */,
+				CE857F8E1AD3CC3A00E2A27D /* DETweetSendButtonLandscape@2x.png */,
+				CE857F8F1AD3CC3A00E2A27D /* DETweetSendButtonPortrait.png */,
+				CE857F901AD3CC3A00E2A27D /* DETweetSendButtonPortrait@2x.png */,
+				CE857F911AD3CC3A00E2A27D /* DETweetURLAttachment.png */,
+				CE857F921AD3CC3A00E2A27D /* DETweetURLAttachment@2x.png */,
+			);
+			path = DETweetComposer;
+			sourceTree = "<group>";
+		};
+		CE857F951AD3CC3A00E2A27D /* weiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CE857F961AD3CC3A00E2A27D /* SinaWeibo.bundle */,
+			);
+			path = weiboSDK;
+			sourceTree = "<group>";
+		};
+		CEC8FB8D1AD61A6700E73B8D /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				CEC8FB8E1AD61A6700E73B8D /* images */,
+				CEC8FB951AD63B4100E73B8D /* 404.html */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		CEC8FB8E1AD61A6700E73B8D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE5140411AD7E28A00F2DC9B /* global-bg.png */,
+				CE5140421AD7E28A00F2DC9B /* Icon-wx.png */,
+				CE5140351AD7BAF000F2DC9B /* introduce1@2x.png */,
+				CE5140361AD7BAF000F2DC9B /* introduce1@3x.png */,
+				CE5140371AD7BAF000F2DC9B /* introduce2@2x.png */,
+				CE5140381AD7BAF000F2DC9B /* introduce2@3x.png */,
+				CE5140391AD7BAF000F2DC9B /* introduce3@2x.png */,
+				CE51403A1AD7BAF000F2DC9B /* introduce3@3x.png */,
+				CEC8FB911AD6368F00E73B8D /* global-bg@2x.png */,
+				CEC8FB921AD6368F00E73B8D /* global-bg@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE513FD71AD7B31400F2DC9B /* iCalendar-develop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5140241AD7B31400F2DC9B /* Build configuration list for PBXNativeTarget "iCalendar-develop" */;
+			buildPhases = (
+				CE513FD81AD7B31400F2DC9B /* Check Pods Manifest.lock */,
+				CE513FD91AD7B31400F2DC9B /* Sources */,
+				CE513FE91AD7B31400F2DC9B /* Frameworks */,
+				CE513FFA1AD7B31400F2DC9B /* Resources */,
+				CE5140231AD7B31400F2DC9B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iCalendar-develop";
+			productName = iCalendar;
+			productReference = CE5140271AD7B31400F2DC9B /* iCalendar copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE7446E61AB6CA7900904718 /* iCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE74470A1AB6CA7900904718 /* Build configuration list for PBXNativeTarget "iCalendar" */;
+			buildPhases = (
+				8E5F90E29F8BF1A1EBB274B6 /* Check Pods Manifest.lock */,
+				CE7446E31AB6CA7900904718 /* Sources */,
+				CE7446E41AB6CA7900904718 /* Frameworks */,
+				CE7446E51AB6CA7900904718 /* Resources */,
+				EB4967D19D208C19BB7EBED1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCalendar;
+			productName = iCalendar;
+			productReference = CE7446E71AB6CA7900904718 /* iCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE7446FF1AB6CA7900904718 /* iCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE74470D1AB6CA7900904718 /* Build configuration list for PBXNativeTarget "iCalendarTests" */;
+			buildPhases = (
+				CE7446FC1AB6CA7900904718 /* Sources */,
+				CE7446FD1AB6CA7900904718 /* Frameworks */,
+				CE7446FE1AB6CA7900904718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7447021AB6CA7900904718 /* PBXTargetDependency */,
+			);
+			name = iCalendarTests;
+			productName = iCalendarTests;
+			productReference = CE7447001AB6CA7900904718 /* iCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7446DF1AB6CA7800904718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = cn.com.modernmedia;
+				TargetAttributes = {
+					CE7446E61AB6CA7900904718 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 2K83MC6PMU;
+					};
+					CE7446FF1AB6CA7900904718 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CE7446E61AB6CA7900904718;
+					};
+				};
+			};
+			buildConfigurationList = CE7446E21AB6CA7800904718 /* Build configuration list for PBXProject "iCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE7446DE1AB6CA7800904718;
+			productRefGroup = CE7446E81AB6CA7900904718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7446E61AB6CA7900904718 /* iCalendar */,
+				CE7446FF1AB6CA7900904718 /* iCalendarTests */,
+				CE513FD71AD7B31400F2DC9B /* iCalendar-develop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE513FFA1AD7B31400F2DC9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE513FFB1AD7B31400F2DC9B /* ShareList.plist in Resources */,
+				CE513FFC1AD7B31400F2DC9B /* DETdone@2x.png in Resources */,
+				CE513FFD1AD7B31400F2DC9B /* global-bg@2x.png in Resources */,
+				CE513FFE1AD7B31400F2DC9B /* DETweetComposeView.xib in Resources */,
+				CE513FFF1AD7B31400F2DC9B /* DETweetSendButtonLandscape@2x.png in Resources */,
+				CE5140001AD7B31400F2DC9B /* DETweetCancelButtonLandscape@2x.png in Resources */,
+				CE5140011AD7B31400F2DC9B /* DETdone.png in Resources */,
+				CE5140021AD7B31400F2DC9B /* DETweetURLAttachment@2x.png in Resources */,
+				CE5140031AD7B31400F2DC9B /* DETweetAttachmentFrame.png in Resources */,
+				CE5140041AD7B31400F2DC9B /* DETweetCardHeaderLine.png in Resources */,
+				CE5140051AD7B31400F2DC9B /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				CE5140061AD7B31400F2DC9B /* global-bg@3x.png in Resources */,
+				CE5140071AD7B31400F2DC9B /* DETcancel@2x.png in Resources */,
+				CE5140081AD7B31400F2DC9B /* Main.storyboard in Resources */,
+				CE5140091AD7B31400F2DC9B /* REActivityViewController.strings in Resources */,
+				CE51400A1AD7B31400F2DC9B /* DETweetPaperClip@2x.png in Resources */,
+				CE51400B1AD7B31400F2DC9B /* DETweetCardAccountLine.png in Resources */,
+				CE51400C1AD7B31400F2DC9B /* DETline@2x.png in Resources */,
+				CE51400D1AD7B31400F2DC9B /* DETweetCancelButtonLandscape.png in Resources */,
+				CE51400E1AD7B31400F2DC9B /* REActivityViewController.bundle in Resources */,
+				CE51400F1AD7B31400F2DC9B /* Images-2.xcassets in Resources */,
+				CE5140101AD7B31400F2DC9B /* DETweetCardHeaderLine@2x.png in Resources */,
+				CE5140111AD7B31400F2DC9B /* DETweetAttachmentFrame@2x.png in Resources */,
+				CE5140121AD7B31400F2DC9B /* DETweetSendButtonPortrait.png in Resources */,
+				CE5140131AD7B31400F2DC9B /* DETweetCardBackground.png in Resources */,
+				CE5140141AD7B31400F2DC9B /* SinaWeibo.bundle in Resources */,
+				CE5140151AD7B31400F2DC9B /* DETweetSendButtonLandscape.png in Resources */,
+				CE5140161AD7B31400F2DC9B /* DETweetURLAttachment.png in Resources */,
+				CE5140171AD7B31400F2DC9B /* DETweetSendButtonPortrait@2x.png in Resources */,
+				CE5140191AD7B31400F2DC9B /* DETweetCancelButtonPortrait.png in Resources */,
+				CE51401A1AD7B31400F2DC9B /* DETweetPaperClip.png in Resources */,
+				CE51401B1AD7B31400F2DC9B /* DETweetCancelButtonPortrait@2x.png in Resources */,
+				CE51401C1AD7B31400F2DC9B /* DETweetCardAccountLine@2x.png in Resources */,
+				CE51401D1AD7B31400F2DC9B /* LaunchScreen.xib in Resources */,
+				CE51401E1AD7B31400F2DC9B /* DETline.png in Resources */,
+				CE51401F1AD7B31400F2DC9B /* Images.xcassets in Resources */,
+				CE5140201AD7B31400F2DC9B /* 404.html in Resources */,
+				CE5140211AD7B31400F2DC9B /* DETweetCardBackground@2x.png in Resources */,
+				CE5140221AD7B31400F2DC9B /* DETcancel.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7446E51AB6CA7900904718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE857F751AD3CBB000E2A27D /* ShareList.plist in Resources */,
+				CE857F9A1AD3CC3A00E2A27D /* DETdone@2x.png in Resources */,
+				CEC8FB931AD6368F00E73B8D /* global-bg@2x.png in Resources */,
+				CE857FA91AD3CC3A00E2A27D /* DETweetComposeView.xib in Resources */,
+				CE857FAD1AD3CC3A00E2A27D /* DETweetSendButtonLandscape@2x.png in Resources */,
+				CE51403E1AD7BAF000F2DC9B /* introduce2@3x.png in Resources */,
+				CE857FA01AD3CC3A00E2A27D /* DETweetCancelButtonLandscape@2x.png in Resources */,
+				CE857F991AD3CC3A00E2A27D /* DETdone.png in Resources */,
+				CE857FB11AD3CC3A00E2A27D /* DETweetURLAttachment@2x.png in Resources */,
+				CE857F9D1AD3CC3A00E2A27D /* DETweetAttachmentFrame.png in Resources */,
+				CE857FA71AD3CC3A00E2A27D /* DETweetCardHeaderLine.png in Resources */,
+				CE18604D1ACEA9E8006FE71C /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				CEC8FB941AD6368F00E73B8D /* global-bg@3x.png in Resources */,
+				CE51403B1AD7BAF000F2DC9B /* introduce1@2x.png in Resources */,
+				CE51403C1AD7BAF000F2DC9B /* introduce1@3x.png in Resources */,
+				CE857F981AD3CC3A00E2A27D /* DETcancel@2x.png in Resources */,
+				CE7446F61AB6CA7900904718 /* Main.storyboard in Resources */,
+				CE857FB31AD3CC3A00E2A27D /* REActivityViewController.strings in Resources */,
+				CE51403D1AD7BAF000F2DC9B /* introduce2@2x.png in Resources */,
+				CE857FAB1AD3CC3A00E2A27D /* DETweetPaperClip@2x.png in Resources */,
+				CE857FA31AD3CC3A00E2A27D /* DETweetCardAccountLine.png in Resources */,
+				CE5140401AD7BAF000F2DC9B /* introduce3@3x.png in Resources */,
+				CE857F9C1AD3CC3A00E2A27D /* DETline@2x.png in Resources */,
+				CE857F9F1AD3CC3A00E2A27D /* DETweetCancelButtonLandscape.png in Resources */,
+				CE857FB21AD3CC3A00E2A27D /* REActivityViewController.bundle in Resources */,
+				CEC8FB901AD62D2E00E73B8D /* Images-2.xcassets in Resources */,
+				CE857FA81AD3CC3A00E2A27D /* DETweetCardHeaderLine@2x.png in Resources */,
+				CE857F9E1AD3CC3A00E2A27D /* DETweetAttachmentFrame@2x.png in Resources */,
+				CE857FAE1AD3CC3A00E2A27D /* DETweetSendButtonPortrait.png in Resources */,
+				CE5140441AD7E28A00F2DC9B /* Icon-wx.png in Resources */,
+				CE857FA51AD3CC3A00E2A27D /* DETweetCardBackground.png in Resources */,
+				CE857FB41AD3CC3A00E2A27D /* SinaWeibo.bundle in Resources */,
+				CE857FAC1AD3CC3A00E2A27D /* DETweetSendButtonLandscape.png in Resources */,
+				CE857FB01AD3CC3A00E2A27D /* DETweetURLAttachment.png in Resources */,
+				CE857FAF1AD3CC3A00E2A27D /* DETweetSendButtonPortrait@2x.png in Resources */,
+				CE857FA11AD3CC3A00E2A27D /* DETweetCancelButtonPortrait.png in Resources */,
+				CE857FAA1AD3CC3A00E2A27D /* DETweetPaperClip.png in Resources */,
+				CE857FA21AD3CC3A00E2A27D /* DETweetCancelButtonPortrait@2x.png in Resources */,
+				CE857FA41AD3CC3A00E2A27D /* DETweetCardAccountLine@2x.png in Resources */,
+				CE7446FB1AB6CA7900904718 /* LaunchScreen.xib in Resources */,
+				CE857F9B1AD3CC3A00E2A27D /* DETline.png in Resources */,
+				CE7446F81AB6CA7900904718 /* Images.xcassets in Resources */,
+				CEC8FB961AD63B4100E73B8D /* 404.html in Resources */,
+				CE857FA61AD3CC3A00E2A27D /* DETweetCardBackground@2x.png in Resources */,
+				CE5140431AD7E28A00F2DC9B /* global-bg.png in Resources */,
+				CE51403F1AD7BAF000F2DC9B /* introduce3@2x.png in Resources */,
+				CE857F971AD3CC3A00E2A27D /* DETcancel.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7446FE1AB6CA7900904718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E5F90E29F8BF1A1EBB274B6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		CE513FD81AD7B31400F2DC9B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		CE5140231AD7B31400F2DC9B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+		EB4967D19D208C19BB7EBED1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE513FD91AD7B31400F2DC9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE513FDA1AD7B31400F2DC9B /* ViewController.m in Sources */,
+				CE513FDB1AD7B31400F2DC9B /* AFNetworkReachabilityManager.m in Sources */,
+				CE513FDC1AD7B31400F2DC9B /* WebridgeDelegate.m in Sources */,
+				CE513FDD1AD7B31400F2DC9B /* WBWebridge.m in Sources */,
+				CE513FDE1AD7B31400F2DC9B /* AppDelegate.m in Sources */,
+				CE513FDF1AD7B31400F2DC9B /* WBReachability.m in Sources */,
+				CE513FE01AD7B31400F2DC9B /* WBURLProtocolCache.m in Sources */,
+				CE513FE11AD7B31400F2DC9B /* main.m in Sources */,
+				CE513FE21AD7B31400F2DC9B /* IntroduceView.m in Sources */,
+				CE513FE31AD7B31400F2DC9B /* WBUtils.m in Sources */,
+				CE513FE41AD7B31400F2DC9B /* WBURLProtocol.m in Sources */,
+				CE513FE51AD7B31400F2DC9B /* WBWebView.m in Sources */,
+				CE513FE61AD7B31400F2DC9B /* WBURI.m in Sources */,
+				CE513FE71AD7B31400F2DC9B /* WBUIWebView.m in Sources */,
+				CE513FE81AD7B31400F2DC9B /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7446E31AB6CA7900904718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7446F31AB6CA7900904718 /* ViewController.m in Sources */,
+				CE857F6F1AD3C90E00E2A27D /* AFNetworkReachabilityManager.m in Sources */,
+				CE74471F1AB6EDB600904718 /* WebridgeDelegate.m in Sources */,
+				CE74471B1AB6ED7E00904718 /* WBWebridge.m in Sources */,
+				CE7446F01AB6CA7900904718 /* AppDelegate.m in Sources */,
+				CEAFE66C1AC39E9000077700 /* WBReachability.m in Sources */,
+				CEAFE66F1AC39E9000077700 /* WBURLProtocolCache.m in Sources */,
+				CE7446ED1AB6CA7900904718 /* main.m in Sources */,
+				CE25A5C81AD656A900ACFB43 /* IntroduceView.m in Sources */,
+				CE74471A1AB6ED7E00904718 /* WBUtils.m in Sources */,
+				CEAFE66E1AC39E9000077700 /* WBURLProtocol.m in Sources */,
+				CE74471C1AB6ED7E00904718 /* WBWebView.m in Sources */,
+				CE7447191AB6ED7E00904718 /* WBURI.m in Sources */,
+				CEAFE66D1AC39E9000077700 /* WBUIWebView.m in Sources */,
+				CE857F731AD3C9D900E2A27D /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7446FC1AB6CA7900904718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7447071AB6CA7900904718 /* iCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE7447021AB6CA7900904718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7446E61AB6CA7900904718 /* iCalendar */;
+			targetProxy = CE7447011AB6CA7900904718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE7446F41AB6CA7900904718 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7446F51AB6CA7900904718 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE7446F91AB6CA7900904718 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7446FA1AB6CA7900904718 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE5140251AD7B31400F2DC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhanao Fan (62KC5F9U9X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhanao Fan (62KC5F9U9X)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/user/work/git/ibloomberg/Vendors,
+				);
+				INFOPLIST_FILE = "iCalendar copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/work/git/ibloomberg/Vendors/WeChatSDKExport,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "iCalendar copy";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CE5140261AD7B31400F2DC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhanao Fan (62KC5F9U9X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhanao Fan (62KC5F9U9X)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/user/work/git/ibloomberg/Vendors,
+				);
+				INFOPLIST_FILE = "iCalendar copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/work/git/ibloomberg/Vendors/WeChatSDKExport,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "iCalendar copy";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CE7447081AB6CA7900904718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE7447091AB6CA7900904718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE74470B1AB6CA7900904718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhanao Fan (62KC5F9U9X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhanao Fan (62KC5F9U9X)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/user/work/git/ibloomberg/Vendors,
+				);
+				INFOPLIST_FILE = iCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/work/git/ibloomberg/Vendors/WeChatSDKExport,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE74470C1AB6CA7900904718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhanao Fan (62KC5F9U9X)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zhanao Fan (62KC5F9U9X)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/user/work/git/ibloomberg/Vendors,
+				);
+				INFOPLIST_FILE = iCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/user/work/git/ibloomberg/Vendors/WeChatSDKExport,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CE74470E1AB6CA7900904718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCalendar.app/iCalendar";
+			};
+			name = Debug;
+		};
+		CE74470F1AB6CA7900904718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCalendar.app/iCalendar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE5140241AD7B31400F2DC9B /* Build configuration list for PBXNativeTarget "iCalendar-develop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5140251AD7B31400F2DC9B /* Debug */,
+				CE5140261AD7B31400F2DC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7446E21AB6CA7800904718 /* Build configuration list for PBXProject "iCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7447081AB6CA7900904718 /* Debug */,
+				CE7447091AB6CA7900904718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE74470A1AB6CA7900904718 /* Build configuration list for PBXNativeTarget "iCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE74470B1AB6CA7900904718 /* Debug */,
+				CE74470C1AB6CA7900904718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE74470D1AB6CA7900904718 /* Build configuration list for PBXNativeTarget "iCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE74470E1AB6CA7900904718 /* Debug */,
+				CE74470F1AB6CA7900904718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE7446DF1AB6CA7800904718 /* Project object */;
+}

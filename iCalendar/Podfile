@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+xcodeproj './iPrint.xcodeproj'
+#pod "AFNetworking", "~> 2.0"
+pod 'SDWebImage', '~>3.6'
+#pod 'CLImageEditor', "~> 0.1.0"
+#pod 'CLImageEditor/AllTools'
+pod 'pop', '~> 1.0'
+pod 'SWTableViewCell','~>0.3'
+pod 'MagicalRecord'
+pod 'ZipArchive'
+pod 'GPUImage'
+pod 'AVOSCloud'
+pod 'AVOSCloudSNS'
+pod 'TWMessageBarManager'
+#pod 'Shimmer','~>1.0.1'
